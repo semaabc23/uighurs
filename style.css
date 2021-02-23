@@ -1,0 +1,89 @@
+/* CSS files add styling rules to your content */
+
+body {
+font-family: 'Fjalla One', sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+#help {
+  float:right;
+}
+
+/* the following two item is in reference to W3 schools */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6F1D1B;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+}
+
+
+li a {
+  text-decoration: none;
+  padding: 15px 35px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+/* the following two items were in reference to W3 schools */
+
+li a:hover:not(.active) {
+  background-color: #BB9457;
+  color: #6F1D1B;
+}
+
+.active {
+  background-color: #BB9457;
+}
+
+.slideshow {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pics {
+  width: 80%;
+  height: 70%;
+  filter: sepia(50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html{
+  background-color: #bf7d4f;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+}
+
+p{
+  color: #432818;
+  font-size: 30px;
+}
+
+#uhrp {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
